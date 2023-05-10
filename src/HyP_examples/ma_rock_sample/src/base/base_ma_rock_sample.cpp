@@ -104,7 +104,7 @@ BaseMultiAgentRockSample::BaseMultiAgentRockSample(int size, int rocks) :
 
 
 void BaseMultiAgentRockSample::InitGeneral() {
-	num_agents_=2;
+	num_agents_=5;
 
 	start_poses_[0] = Coord(0, size_ / 2+1);
 	start_poses_[1] = Coord(0, size_ / 2-1);
@@ -140,7 +140,7 @@ void BaseMultiAgentRockSample::Init_4_4() {
 	Coord rocks[] = { Coord(3, 1), Coord(2, 1), Coord(1, 3), Coord(1, 0) };
 
 	//start_pos_ = Coord(0, 2);
-	num_agents_=2;
+	num_agents_=5;
 	start_poses_[0] = Coord(0, 2);
 	start_poses_[1] = Coord(0, 1);
 	grid_.SetAllValues(-1);
@@ -157,7 +157,7 @@ void BaseMultiAgentRockSample::Init_5_5() {
 		4, 1) };
 
 	//start_pos_ = Coord(0, 2);
-	num_agents_=2;
+	num_agents_=5;
 
 	start_poses_[0] = Coord(0, 3);
 	start_poses_[1] = Coord(0, 1);
@@ -175,7 +175,7 @@ void BaseMultiAgentRockSample::Init_5_7() {
 		4, 2), Coord(0, 3), Coord(3, 4) };
 
 	//start_pos_ = Coord(0, 2);
-	num_agents_=2;
+	num_agents_=5;
 
 	start_poses_[0] = Coord(0, 3);
 	start_poses_[1] = Coord(0, 1);
@@ -194,7 +194,7 @@ void BaseMultiAgentRockSample::Init_7_8() {
 		2, 4), Coord(3, 4), Coord(5, 5), Coord(1, 6) };
 
 	//start_pos_ = Coord(0, 3);
-	num_agents_=2;
+	num_agents_=5;
 
 	start_poses_[0] = Coord(0, 4);
 	start_poses_[1] = Coord(0, 2);
@@ -337,7 +337,7 @@ void BaseMultiAgentRockSample::Init_11_11() {
 		Coord(9, 9) };
 
 	//start_pos_ = Coord(0, 5);
-	num_agents_=2;
+	num_agents_=5;
 
 	start_poses_[0] = Coord(0, 6);
 	start_poses_[1] = Coord(0, 4);
@@ -357,7 +357,7 @@ void BaseMultiAgentRockSample::Init_15_15() {
 		Coord(11, 12),Coord(12, 2),Coord(2, 6),Coord(6, 14),Coord(9, 11) };
 
 	//start_pos_ = Coord(0, 7);
-	num_agents_=2;
+	num_agents_=5;
 
 	start_poses_[0] = Coord(0, 8);
 	start_poses_[1] = Coord(0, 6);
