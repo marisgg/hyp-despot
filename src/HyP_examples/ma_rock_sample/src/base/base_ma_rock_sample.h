@@ -15,7 +15,7 @@
 #define ACTION_BIT_MASK ((1 << MAX_ACTION_BIT)-1)
 #define MAX_OBS_BIT 3
 #define OBS_BIT_MASK ((1 << MAX_OBS_BIT)-1)
-#define MAX_NUM_AGENTS 3
+#define MAX_NUM_AGENTS 7
 
 
 namespace despot {
