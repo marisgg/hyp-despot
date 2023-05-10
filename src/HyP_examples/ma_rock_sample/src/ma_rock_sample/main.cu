@@ -253,15 +253,15 @@ public:
 
 	void InitializeDefaultParameters() {
 		Globals::config.GPUid=1;//default GPU
-		Globals::config.useGPU=true;
+		Globals::config.useGPU=false;
 
-		Globals::config.use_multi_thread_=true;
-		Globals::config.NUM_THREADS=5;
+		Globals::config.use_multi_thread_=false;
+		Globals::config.NUM_THREADS=1;
 		Globals::config.sim_len=90;
 		Globals::config.max_policy_sim_len=10;
-		Globals::config.time_per_move=1;
+		Globals::config.time_per_move=15;
 		Globals::config.num_scenarios=500;
-		Globals::config.discount=0.983;
+		Globals::config.discount=0.95;
 
 		Obs_type=OBS_LONG64;
 
