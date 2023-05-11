@@ -257,9 +257,9 @@ public:
 
 		Globals::config.use_multi_thread_=false;
 		Globals::config.NUM_THREADS=1;
-		Globals::config.sim_len=90;
-		Globals::config.max_policy_sim_len=10;
-		Globals::config.time_per_move=15;
+		// Globals::config.sim_len=90;
+		// Globals::config.max_policy_sim_len=10;
+		// Globals::config.time_per_move=15;
 		Globals::config.num_scenarios=500;
 		Globals::config.discount=0.95;
 
