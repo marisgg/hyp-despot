@@ -291,6 +291,8 @@ void PlannerBase::OptionParse(option::Option *options, int &num_runs,
 
 	if (options[E_RUNS])
 		num_runs = atoi(options[E_RUNS].arg);
+	
+	cout << "Number of runs: " << num_runs << endl;
 
 	if (options[E_BELIEF])
 		belief_type = options[E_BELIEF].arg;
