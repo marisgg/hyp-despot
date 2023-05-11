@@ -19,8 +19,9 @@ for n in {3..6}; do
     echo "INFO: running n=11, k=11"
     ./hyp_despot_mars --size 11 --number 11 --runs 100 -d 25 -g 0.95 -t 15 -r 1337 -s 40 -v 0 --silence --max-policy-simlen 25 --exp 1 | tee ${dir}/output/exp_n${n}_11_11.tee.log &
     # echo "INFO: done with n=11, k=11"
-    wait
     echo "INFO: done with $n agents."
 done
+
+wait
 
 echo "Done."
