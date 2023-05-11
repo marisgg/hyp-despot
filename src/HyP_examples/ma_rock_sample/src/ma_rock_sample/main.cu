@@ -280,8 +280,8 @@ public:
 };
 
 int main(int argc, char* argv[]) {
-
-  return MARSplanner().RunPlanning(argc, argv);
+//   return MARSplanner().RunPlanning(argc, argv);
+  return MARSplanner().RunEvaluation(argc, argv);
 }
 
 
