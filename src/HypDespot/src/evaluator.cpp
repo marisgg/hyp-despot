@@ -67,6 +67,7 @@ int Planner::RunEvaluation(int argc, char *argv[]) {
 	option::Option *options = InitializeParamers(argc, argv, solver_type,
 			search_solver, num_runs, world_type, belief_type, time_limit);
 	cout << "Num runs in evaluator is: " << num_runs << endl;
+	cout << options[E_EXP_MODE] << endl;
 	if(options==NULL)
 		return 0;
 
