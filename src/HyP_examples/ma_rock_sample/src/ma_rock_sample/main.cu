@@ -265,7 +265,7 @@ public:
 
 		Obs_type=OBS_LONG64;
 
-		// Globals::config.exploration_mode=UCT;
+		Globals::config.exploration_mode=VIRTUAL_LOSS;
 		Globals::config.exploration_constant=/*0.8*/0.3;
 		Globals::config.exploration_constant_o=0.3;
 
