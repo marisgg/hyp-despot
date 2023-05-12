@@ -260,12 +260,12 @@ public:
 		// Globals::config.sim_len=90;
 		// Globals::config.max_policy_sim_len=10;
 		// Globals::config.time_per_move=15;
-		Globals::config.num_scenarios=500;
+		// Globals::config.num_scenarios=500;
 		Globals::config.discount=0.95;
 
 		Obs_type=OBS_LONG64;
 
-		Globals::config.exploration_mode=UCT;
+		// Globals::config.exploration_mode=UCT;
 		Globals::config.exploration_constant=/*0.8*/0.3;
 		Globals::config.exploration_constant_o=0.3;
 
