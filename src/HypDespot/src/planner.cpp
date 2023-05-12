@@ -76,6 +76,7 @@ int Planner::RunPlanning(int argc, char *argv[]) {
 
 	option::Option *options = InitializeParamers(argc, argv, solver_type,
 			search_solver, num_runs, world_type, belief_type, time_limit);
+	cout << "Num runs in planner is: " << num_runs << endl;
 	if(options==NULL)
 		return 0;
 
